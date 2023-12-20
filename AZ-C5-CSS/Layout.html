@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>CSS FLEXBOX AND GRID</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: auto auto auto auto   ;
+            gap: 10px;
+        }
+        
+        .item{
+            background-color:gray;
+            border: 10px black;
+            padding: 10px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .item1{
+            grid-column-start: 1;
+            grid-column-end: 8;
+        }
+
+        .item2{
+            grid-column-start: 1;
+            grid-column-end: 8;
+        }
+
+        .item10{
+            grid-column-start: 1;
+            grid-column-end: 8;
+        }
+
+        .item4{
+            grid-column-start: 3;
+            grid-column-end: 4;
+        }
+        
+        .item3{
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+        .item5{
+            grid-column-start: 5;
+            grid-column-end:6;
+        }
+
+        .item6{
+            grid-column-start: 8;
+            grid-column-end: 9;
+        }
+
+        .item7{
+            grid-row-start: 4;
+            grid-row-end: 5;
+            column-width: 5px;
+        }
+ 
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item1">Company logo and slogan</div>
+        <div class="item item2">Header</div>
+        <div class="item item3">Navigation</div>
+        <div class="item item4"></div>
+        <div class="item item5"></div>
+        <div class="item it1em6"></div>
+        <div class="item item7">About</div>
+        <div class="item item8">Quick links</div>
+        <div class="item item9">Quick links</div>
+        <div class="item item10">Site plan and copyright info</div>
+    </div>
+</body>
+</html>
